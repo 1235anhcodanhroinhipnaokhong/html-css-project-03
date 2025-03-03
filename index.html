@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Embed fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Css Embed -->
+    <link rel="stylesheet" href="assets/styles/reset.css" />
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <title>F8 Project 03</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <!-- <img
+      src="./assets/imgs/Hero.png"
+      style="
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: auto;
+        opacity: 0.5;
+        pointer-events: none;
+      "
+    /> -->
+    <div class="header">
+      <div class="container">
+        <div class="header-top">
+          <div class="row">
+            <a href="">
+              <div class="logo">
+                <span class="logo__circle"></span>
+                <span class="logo__text">
+                  <span class="logo__brand">shine</span>
+                  <span class="logo__brand logo__brand--small">smile</span>
+                </span>
+              </div>
+            </a>
+            <!-- Header top-->
+            <!-- Navbar -->
+            <nav class="navbar">
+              <ul class="navbar__list">
+                <li class="navbar__item">
+                  <a href="" class="navbar__link navbar__link--active">Home</a>
+                </li>
+                <li class="navbar__item">
+                  <a href="" class="navbar__link">Services</a>
+                </li>
+                <li class="navbar__item">
+                  <a href="" class="navbar__link">About</a>
+                </li>
+                <li class="navbar__item">
+                  <a href="" class="navbar__link">Doctors</a>
+                </li>
+              </ul>
+            </nav>
+
+            <!-- Header action -->
+            <div class="header-action">
+              <div class="row">
+                <a href="" class="header-action__login">Log In</a>
+                <button href="" class="header-action__signup btn normal">
+                  Sign Up
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Hero -->
+        <section class="hero">
+          <div class="row">
+            <section class="hero__content">
+              <h1 class="hero__heading">
+                Exceptional dental care for all ages.
+              </h1>
+              <p class="hero__desc large">
+                Exceptional dental care for all ages. Your great smile begins
+                with a great dentist.
+              </p>
+              <div class="hero__cta-group large">
+                <div class="row">
+                  <button class="btn">Book Online</button>
+                  <span class="hero__phone-num"
+                    >or call
+                    <a href="tel:123456789" class="hero__phone-link"
+                      >(123) 456-7890</a
+                    ></span
+                  >
+                </div>
+              </div>
+            </section>
+
+            <div class="hero__media">
+              <figure class="hero__imgs">
+                <div class="row">
+                  <img
+                    src="./assets/imgs/hero/hero-1.jpg"
+                    alt=""
+                    class="hero__img--left img"
+                  />
+                  <img
+                    src="./assets/imgs/hero/hero-2.jpg"
+                    alt=""
+                    class="hero__img--right img"
+                  />
+                </div>
+              </figure>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <!-- Services -->
+    <div class="main">
+      <section class="services">
+        <div class="container">
+          <h2 class="service__heading section-heading">Our services</h2>
+          <p class="service__desc large">
+            Exceptional dental care for all ages. Your great smile begins with a
+            great dentist.
+          </p>
+          <div class="row">
+            <figure class="img">
+              <img
+                src="./assets/imgs/service/service-1.jpg"
+                alt="a boy with happy white teeth"
+                class="service__img"
+              />
+            </figure>
+            <div class="service__list">
+              <section class="service-item service-item--active">
+                <div class="service-item__row">
+                  <figure class="service-item__icon">
+                    <img
+                      src="./assets/imgs/icons/service-icon-1.svg"
+                      alt=""
+                      class="service-item__icon"
+                    />
+                  </figure>
+                  <div class="service-item__body">
+                    <h3 class="service-item__heading large">Oral Surgery</h3>
+                    <p class="service-item__desc">
+                      Everything you expect and then some. Cleanings, fillings,
+                      and x-rays.
+                    </p>
+                  </div>
+                </div>
+              </section>
+              <section class="service-item">
+                <div class="service-item__row">
+                  <figure class="service-item__icon">
+                    <img
+                      src="./assets/imgs/icons/service-icon-2.svg"
+                      alt=""
+                      class="service-item__icon"
+                    />
+                  </figure>
+                  <div class="service-item__body">
+                    <h3 class="service-item__heading large">
+                      Wisdom Teeth Removal
+                    </h3>
+                    <p class="service-item__desc">
+                      Everything you expect and then some. Cleanings, fillings,
+                      and x-rays.
+                    </p>
+                  </div>
+                </div>
+              </section>
+              <section class="service-item">
+                <div class="service-item__row">
+                  <figure class="service-item__icon">
+                    <img
+                      src="./assets/imgs/icons/service-icon-2.svg"
+                      alt=""
+                      class="service-item__icon"
+                    />
+                  </figure>
+                  <div class="service-item__body">
+                    <h3 class="service-item__heading large">
+                      Preventative Dentistry
+                    </h3>
+                    <p class="service-item__desc">
+                      Everything you expect and then some. Cleanings, fillings,
+                      and x-rays.
+                    </p>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
